@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Crmall\\Cadastro\\' => array($baseDir . '/src'),
+    'Crmall\\' => array($baseDir . '/src'),
 );
