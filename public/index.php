@@ -9,6 +9,8 @@ if (!$pagina) {
   exit;
 }
 
+// echo $pagina;
+
 $rotas = require_once __DIR__ . '../../config/rotas.php';
 
 if (!array_key_exists($pagina, $rotas)) {

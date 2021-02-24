@@ -9,4 +9,11 @@ function consultarCep(cep) {
       $("#cidade").val(result.localidade);
       $("#estado").val(result.uf);
     });
+
+  // fetch("http://viacep.com.br/ws/" + cep + "/json/ ")
+  // .then((res) => {
+  //   // console.log(res);
+  // }).then((dados) => {
+  //   console.log(dados);
+  // })
 }

@@ -10,10 +10,10 @@ class ListarClientes implements InterfaceControllerRequisicao
   public function processarRequisicao(): void
   {
 
+
     $conexao = Conexao::criarConexao();
     $repo = new ClienteRepo($conexao);
     
-
     $opcoes = [
       'qtdePorPagina'=> 100,
     ];
